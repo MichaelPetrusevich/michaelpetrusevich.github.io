@@ -1,0 +1,146 @@
+body {
+	font-family: 'helvetica-light', 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+}
+
+header ul, footer ul {
+	list-style: none; 
+	margin: 0; 
+	padding-left: 0; 
+	margin-top:25px; 
+	background:#3b3358; 
+	height: 40px; 
+}
+
+header a, header .info, footer .info {
+	text-decoration: none; 
+	background:#3b3358; 
+	color:#fff; 
+	font-weight: bold;
+	font-size: 12px;
+	padding:0px 15px; 
+	font-family: "helvetica-black",Arial,Helvetica,sans-serif; 
+	line-height:40px; 
+	display: block; 
+	border-right: 1px solid #ffffff; 
+	-moz-transition: all 0.3s 0.01s ease; 
+	-o-transition: all 0.3s 0.01s ease;
+	-webkit-transition: all 0.3s 0.01s ease;
+	text-transform: uppercase;
+}
+
+header .info {
+	color:#8175ac;
+}
+
+.menu-main a:hover {	
+	/*background:#D43737;*/
+	color:#8175ac;
+}
+
+li {
+	float:left; 
+}
+
+.navbar-logo {
+	float: left;
+	background-color:rgb(243, 82, 82);
+	height: 40px; 
+	max-width: 4%;
+}
+
+.main p, .sidebar2 p {
+	font-size: 14px;
+	margin-bottom: 15px;
+	text-align: justify;	
+}
+
+.main ul, .sidebar2 ul {
+	list-style: none;
+	margin: 10px; 
+	padding-left: 0; 
+}
+
+.main a, .sidebar2 a {
+	color:rgb(243, 82, 82);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.pageWrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.columnWrapper {
+    float: left;
+    width: 80%;
+}
+
+.columnWrapper {
+	float: left;
+	width: 65%;	
+	padding: 0 10px;
+	margin-right: 0;
+	border-left: dashed 1px rgb(153,153,153);
+	border-right: dashed 1px rgb(153,153,153);
+}
+
+.sidebar2 {
+	float: right;
+	width: 30%; 
+	padding: 0 10px;
+	margin: 0; 	
+	border-right: dashed 1px rgb(153,153,153);
+}
+
+footer {
+	clear: both;  
+}
+
+nav ul, header h1, footer p, .contentWrapper {
+	max-width: 1200px;
+	margin: 0 auto; 
+}
+
+img {
+	max-width: 100%;
+}
+
+img.half {
+	max-width: 30%;
+}
+
+img.left {
+	  float: left;
+	  margin: 0 10px 10px 0;
+}
+
+img.right {
+	  float: right;
+	  margin: 0 0 10px 10px;
+}
+
+.img-counter {
+    position: relative;
+}
+
+.nstat, .nstat-sidebar1 {
+    position: absolute;
+    bottom: 0px;
+    right: 154px;
+    background-color: rgb(243, 82, 82);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+	width: 15px;
+}
+
+.nstat-sidebar1 {    
+    right: 60px;    
+}
+
+.not-active {
+	pointer-events: none;
+	cursor: default;
+}
